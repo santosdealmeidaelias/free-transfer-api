@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.freetransfer.api'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    // Test Dependencies
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.4.0'
+
+}
